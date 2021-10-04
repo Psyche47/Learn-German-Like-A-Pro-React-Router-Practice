@@ -1,0 +1,74 @@
+[
+    {
+      "course_id": 1,
+      "title": "A1 Crash Course",
+      "type": "Extensive",
+      "schedule": "Sunday to Wednesday",
+      "total_duration": "3 months",
+      "fee": 350,
+      "img": "https://thegermanhouse-lb.com/wp-content/uploads/2018/01/german-course-A1-960x480.jpg"
+    },
+    {
+      "course_id": 2,
+      "title": "A1.1 Beginners Course",
+      "schedule": "Friday & Saturday",
+      "total_duration": "3 months",
+      "type": "Intensive",
+      "fee": 200,
+      "img": "https://freetutsdownload.net/wp-content/uploads/2020/08/941648_ecae_6.jpg"
+    },
+    {
+      "course_id": 3,
+      "title": "A1.2",
+      "schedule": "Friday & Saturday",
+      "total_duration": "4 months",
+      "type": "Intensive",
+      "fee": 250,
+      "img": "https://d2m1cxyjdnd8tz.cloudfront.net/uploads/irs.ofabee.com/items_org/course/15.webp?v=36"
+    },
+    {
+      "course_id": 4,
+      "title": "A1 Full Package",
+      "schedule": "Monday to Thursday",
+      "total_duration": "4 months",
+      "type": "Extensive",
+      "fee": 340,
+      "img": "https://www.johnacademy.co.uk/wp-content/uploads/2018/11/342-Complete-German-Course-Intermediate.jpg"
+    },
+    {
+      "course_id": 5,
+      "title": "B1.1",
+      "schedule": "Tuesday & Thursday",
+      "total_duration": "3 months",
+      "type": "Intensive",
+      "fee": 250,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWlh0Rlkke8oipErCTX1lOMLE3ITXNMyc_8ydjEWp9t25lN6UYErq7PewA2vPHC7lbh4&usqp=CAU"
+    },
+    {
+      "course_id": 6,
+      "title": "B1.2",
+      "schedule": "Monday & Thursday",
+      "total_duration": "6 months",
+      "type": "Intensive",
+      "fee": 400,
+      "img": "https://4.bp.blogspot.com/-0s84HFtQg-I/W-FkpFmC4aI/AAAAAAAAAa8/FkmiYlBXttA5azeQ3AXwc7DXnofmGh6PACLcBGAs/s1600/level-b1.png"
+    },
+    {
+      "course_id": 7,
+      "title": "C1",
+      "schedule": "Monday & Wednesday",
+      "total_duration": "3 months",
+      "type": "Intensive",
+      "fee": 280,
+      "img": "https://thegermanhouse-lb.com/wp-content/uploads/2018/01/german-course-C1-960x480.jpg"
+    },
+    {
+      "course_id": 8,
+      "title": "C2",
+      "schedule": "Friday & Saturday",
+      "total_duration": "3 months",
+      "type": "Extensive",
+      "fee": 280,
+      "img": "https://www.schiller-language-training.com/images/German-language-course-C1.jpg"
+    }
+  ]
