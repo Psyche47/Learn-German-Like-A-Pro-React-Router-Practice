@@ -5,6 +5,10 @@ import { Container } from "react-bootstrap";
 import header_img from "../../Images/header.jpg";
 import Service from "../Service/Service";
 const Home = () => {
+  const details = {
+    border: "2px solid black",
+    borderRadius: "10px",
+  };
   const [courses, setCourses] = useState([]);
   useEffect(() => {
     fetch("./services.json")
@@ -18,9 +22,11 @@ const Home = () => {
           <div>
             <img src={header_img} alt="" />
           </div>
-          <div className="ms-3">
+          <div className="ms-3 p-2 mt-2" style={details}>
             <h4>Learn From Our Expert Teachers.</h4>
             <h4>Ace your German Exam.</h4>
+            <p>Take lessons from instructors with 10+ years of experience.</p>
+            <p>Guaranteed Success!</p>
           </div>
         </div>
       </section>
