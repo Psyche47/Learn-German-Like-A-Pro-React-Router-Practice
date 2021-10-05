@@ -11,7 +11,7 @@ const AboutUs = () => {
     <div className="d-flex container">
       <Row>
         <Col className="text-center">
-          <img src={headerImg} alt="" className-="img-fluid" />
+          <img src={headerImg} alt="" />
         </Col>
         <Col style={details} className="mt-2">
           <h3>Welcome!</h3>

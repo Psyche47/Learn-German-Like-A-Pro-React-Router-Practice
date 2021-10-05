@@ -12,7 +12,7 @@ const Services = () => {
   }, []);
   return (
     <div className="container">
-      <h3 className="rounded bg-primary text-white text-center mt-3 p-3">
+      <h3 className="rounded bg-dark text-white text-center mt-3 p-3">
         All of our specialized courses
       </h3>
       <div className="row">

@@ -1,0 +1,22 @@
+.flag-img {
+  height: 50px;
+  width: 50px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+}
+.active {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 7px;
+}
+
+.active:hover {
+  color: white;
+}
+
+.link-heading {
+  font-weight: 700;
+}
