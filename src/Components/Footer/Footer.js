@@ -6,6 +6,11 @@ import flagImg from "../../Images/germany.png";
 import "./Footer.css";
 
 const Footer = () => {
+  const activeStyle = {
+    color: "white",
+    textDecoration: "none",
+    fontSize: "large",
+  };
   return (
     <footer>
       <div className="bg-dark">
@@ -13,7 +18,9 @@ const Footer = () => {
           <Row className="bg-dark text-white p-3 mt-2">
             <Col className="d-flex align-items-center">
               <img src={flagImg} alt="" className="flag-img" />
-              <h5 className="brand ms-2">Learn German Like A Pro</h5>
+              <NavLink to="/home" style={activeStyle}>
+                Learn German Like A Pro
+              </NavLink>
             </Col>
             <Col className="ms-4">
               <h5 className="link-heading">Useful Links</h5>
