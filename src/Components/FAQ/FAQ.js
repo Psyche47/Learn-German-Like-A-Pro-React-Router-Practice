@@ -28,6 +28,17 @@ const FAQ = () => {
         <ListGroup.Item variant="success">
           Ans: 2 Ebooks and a lot of exercise PDF's will be given.
         </ListGroup.Item>
+        <ListGroup.Item>6. Will quizes and exams be taken?</ListGroup.Item>
+        <ListGroup.Item variant="success">
+          Ans: Quizes and Exams will be taken at the end of each lesson.
+        </ListGroup.Item>
+        <ListGroup.Item>
+          7. Can I unenroll if I change my mind later?
+        </ListGroup.Item>
+        <ListGroup.Item variant="success">
+          Ans: You will receive full refund if you change your mind within 3
+          weeks.
+        </ListGroup.Item>
       </ListGroup>
     </div>
   );
