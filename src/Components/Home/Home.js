@@ -27,7 +27,6 @@ const Home = () => {
             <h4>Ace your German Exam.</h4>
             <p>Take lessons from instructors with 10+ years of experience.</p>
             <p>Guaranteed Success!</p>
-            <i class="bi bi-facebook"></i>
           </div>
         </div>
       </section>

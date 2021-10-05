@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Facebook } from "react-bootstrap-icons";
 import { NavLink } from "react-router-dom";
 import flagImg from "../../Images/germany.png";
 import "./Footer.css";
@@ -9,7 +10,7 @@ const Footer = () => {
     <footer>
       <div className="bg-dark">
         <Container>
-          <Row className="bg-success text-white p-3 mt-2">
+          <Row className="bg-dark text-white p-3 mt-2">
             <Col className="d-flex align-items-center">
               <img src={flagImg} alt="" className="flag-img" />
               <h5 className="brand ms-2">Learn German Like A Pro</h5>
@@ -30,7 +31,8 @@ const Footer = () => {
             </Col>
             <Col>
               <h5 className="link-heading">Contact Us</h5>
-              <i class="bi bi-facebook text-white">FB</i>
+              <Facebook size={30}></Facebook>
+              <a href=""></a>
             </Col>
           </Row>
         </Container>
