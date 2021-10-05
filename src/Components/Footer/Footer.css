@@ -13,7 +13,14 @@
   margin-bottom: 7px;
 }
 
-.active:hover {
+.active-social {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.active:hover,
+.active-social:hover {
   color: white;
 }
 
