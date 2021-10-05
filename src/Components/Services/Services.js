@@ -12,9 +12,9 @@ const Services = () => {
   }, []);
   return (
     <div className="container">
-      <h3 className="rounded bg-dark text-white text-center mt-3 p-3">
+      <h2 className="rounded bg-dark text-white text-center mt-3 p-3">
         All of our specialized courses
-      </h3>
+      </h2>
       <div className="row">
         {courses.map((course) => (
           <Service key={course.course_id} course={course}></Service>

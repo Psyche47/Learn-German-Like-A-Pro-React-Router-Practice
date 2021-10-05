@@ -19,7 +19,9 @@ const Header = () => {
               height="30"
               className="d-inline-block align-top"
             />{" "}
-            Learn German Like A Pro
+            <NavLink to="/home" style={activeStyle}>
+              Learn German Like A Pro
+            </NavLink>
           </Navbar.Brand>
           <Nav variant="dark">
             <Nav.Link>
